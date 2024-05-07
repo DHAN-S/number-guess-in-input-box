@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="num">
+    <button onclick="func()"> press me</button>
+    <script>
+        var z=0
+      function func()
+                {
+     var x=document.getElementById("num")
+      var ans=Number(x.value)
+      var d=(Math.ceil(Math.random()*10))%10
+      console.log(d)
+     z++;
+      if(d==ans)
+      alert(" number of attempt :" +z)
+
+}
+
+        </script>
+</body>
+</html>
